@@ -6,4 +6,3 @@ public = Blueprint('public', __name__)
 def index():
     return render_template("hello.html")
 
-

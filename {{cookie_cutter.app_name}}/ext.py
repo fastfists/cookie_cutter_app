@@ -4,7 +4,9 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_admin import Admin
 from flask_bcrypt import Bcrypt
 from flask_login import LoginManager
+from flask_sekazi import Sekazi
 
+sekazi = Sekazi()
 login_manager = LoginManager()
 migrate = Migrate()
 db = SQLAlchemy()

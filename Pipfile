@@ -17,8 +17,9 @@ flask-marshmallow = "*"
 flask-login = "*"
 python-dotenv = "*"
 marshmallow-sqlalchemy = "*"
-psycopg2 = "*"
 gunicorn = "*"
+flask-sekazi = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.7"
